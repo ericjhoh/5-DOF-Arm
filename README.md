@@ -1,1 +1,1 @@
-# 6-DOF-Arm
+# 5-DOF-Arm
