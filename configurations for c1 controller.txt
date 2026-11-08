@@ -1,0 +1,18 @@
+conf set aux1.spi.mode 1
+
+conf set aux2.pins.0.mode 1
+conf set aux2.pins.1.mode 1
+conf set aux2.pins.2.mode 1
+conf set aux2.pins.3.mode 2
+conf set aux2.spi.mode 2
+conf set aux2.spi.rate_hz 12000000
+
+conf set motor_position.sources.0.aux_number 2
+conf set motor_position.sources.0.type 1
+conf set motor_position.sources.0.cpr 16384
+conf set motor_position.sources.0.reference 0
+conf set motor_position.commutation_source 0
+conf set motor_position.output.source 0
+conf set motor_position.rotor_to_output_ratio 0.125
+
+conf write
